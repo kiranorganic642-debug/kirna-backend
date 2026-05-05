@@ -29,9 +29,8 @@ if (process.env.NODE_ENV === 'development') {
 
 // CORS Configuration
 const allowedOrigins = [
-  'https://kirna.vercel.app',
-  'https://www.kirna.vercel.app',
-  'http://localhost:5173'
+  'https://kiransorganic.com',
+  'https://www.kiransorganic.com'
 ];
 
 app.use(cors({
